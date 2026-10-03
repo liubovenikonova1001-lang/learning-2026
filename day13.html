@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Параллельная загрузка данных</title>
+    <link rel = "stylesheet" href="day13.css">
+</head>
+<body>
+    <h1>Параллельная загрузка</h1>
+    <p id="status">Статус: ожидание</p>
+    <button id="loadBtn">Загрузить всё</button>
+
+    <section class="section section-user">
+        <h2>Пользователь</h2>
+        <div id="userContainer">
+        </div>
+    </section>
+
+    <section class="section section-posts">
+        <h2>Посты</h2>
+        <div id="postsContainer">
+        </div>
+    </section>
+
+    <section class="section section-comments"> 
+        <h2>Комментарии</h2>
+        <div id="commentsContainer">
+        </div>
+    </section>
+    <p>Ошибка: <span id="errorOutput">—</span></p>
+    <script src="day13.js"></script>
+</body>
+</html>
