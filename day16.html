@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Поиск пользователей</title>
+    <link rel="stylesheet" href="day16.css">
+</head>
+<body>
+    <div class="panel">
+        <h1>User Directory</h1>
+        <div class="cInput">
+            <input type="text" id="searchInput" placeholder="Поиск по имени или email...">
+            <button id="loadBtn">Загрузить пользователей</button>
+        </div>
+        <div id="loader">Загрузка...</div>
+        <div id="errorMessage"></div>
+        <div id="emptyMessage">Ничего не найдено</div>
+        <div id="userGrid" class="grid"></div>
+    </div>
+    <script src="day16.js"></script>
+</body>
+</html>
